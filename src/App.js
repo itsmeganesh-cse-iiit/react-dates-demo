@@ -29,6 +29,7 @@ class App extends Component {
           onFocusChange={(focusedInput) => { this.setState({ focusedInput })}}
           keepOpenOnDateSelect
           numberOfMonths={1}
+          autoFocus
         />
       </div>
     );
