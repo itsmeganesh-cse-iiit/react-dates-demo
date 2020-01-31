@@ -27,6 +27,7 @@ class App extends Component {
           onDatesChange={({ startDate, endDate }) => { this.setState({ startDate, endDate })}}
           focusedInput={this.state.focusedInput}
           onFocusChange={(focusedInput) => { this.setState({ focusedInput })}}
+          keepOpenOnDateSelect
         />
       </div>
     );
